@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\pis\\pis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\pis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\pis\\value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Value.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\pis\\Value.cs",
+              "RelativeDocumentMoniker": "Value.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\pis\\Value.cs",
+              "RelativeToolTip": "Value.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:51:59.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\pis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\pis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxIAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:45:05.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
