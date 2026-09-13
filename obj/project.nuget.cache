@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "05/hFn8HMN4=",
+  "dgSpecHash": "2FStPDV74gs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\_)\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.20\\microsoft.windowsdesktop.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\_)\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\_)\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.20\\microsoft.aspnetcore.app.ref.9.0.20.nupkg.sha512",
+    "C:\\Users\\_)\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.20\\microsoft.netcore.app.host.win-x64.9.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

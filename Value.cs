@@ -9,9 +9,9 @@ namespace ConsoleApp2
     internal class Value
     {
         private string _name;
-        private string _namerus;
+        private string _name2;
         public string Name { get { return _name; } set { _name = value; } }
-        public string NameRus { get { return _namerus; } set {  _namerus = value; } }
+        public string Name2 { get { return _name2; } set {  _name2 = value; } }
         private double _course;
         public double Course { get { return _course; } set { if (value > 0) { _course = value; } else { _course = 7; } } }
         private DateTime _date;
