@@ -7,7 +7,13 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
 
+            for (int i = 0; i < args.Length; ++i)
+            {
+                Console.WriteLine(args[i] + "\n");
+            }
+
             List<Value> values = new List<Value>();
+            Factory factory = new Factory();
 
             Console.WriteLine("введите название валют (2 строки), курс (дробное), дату. для выхода введите пустую строку");
 
@@ -15,44 +21,33 @@ namespace ConsoleApp2
             {
                 string s = Console.ReadLine();
                 if (s.Length == 0) { break; }
-                List<string> properties = s.Split("\" ").ToList();
-
-                for (int i = 0; i < 2; i++)
-                {
-                    properties[i] = properties[i].Substring(1);
-                }
-
-                properties.AddRange(properties[2].Split(" "));
-                properties.RemoveAt(2);
-                //foreach (var property in properties) {Console.WriteLine(property); }
-                values.Add(new Value
-                {
-                    Name = properties[0],
-                    Name2 = properties[1],
-                    Course = Convert.ToDouble(properties[2]),
-                    Date = Convert.ToDateTime(properties[3])
-                });
+                values.Add(factory.CreateValue(s));
             }
-            
-            foreach (Value v in values) { Console.WriteLine($"имя:{v.Name}/{v.Name2}, курс:{v.Course}, дата:{v.Date}"); }
-            Value usdrub = new Value {Name="usd",Name2="rub", Course=35, Date=new DateTime(2007,5,6) };
+
+            foreach (Value v in values)
+            {
+                Console.WriteLine($"имя:{v.From}/{v.To}, курс:{v.Course}, дата:{v.Date}");
+            }
+            Value usdrub = new Value { From = "usd", To = "rub", Course = 35, Date = new DateTime(2007, 5, 6) };
             Console.WriteLine(F(values, usdrub));
-            foreach (Value v in values) { Console.WriteLine($"имя:{v.Name}/{v.Name2}, курс:{v.Course}, дата:{v.Date}"); }
+            foreach (Value v in values)
+            {
+                Console.WriteLine($"имя:{v.From}/{v.To}, курс:{v.Course}, дата:{v.Date}");
+            }
 
         }
-        public static bool F(List<Value> currentvalues, Value toadd) 
-        { 
-            bool res = false;
+        public static bool F(List<Value> currentvalues, Value toadd)
+        {
             int index = 0;
-            for (int i=0;i<currentvalues.Count;i++)
+            for (int i = 0; i < currentvalues.Count; i++)
             {
-                if (currentvalues[i].Name == toadd.Name && currentvalues[i].Name2 == toadd.Name2) 
-                {   
+                if (currentvalues[i].From == toadd.From && currentvalues[i].To == toadd.To)
+                {
                     currentvalues[i] = toadd;
                     return true;
                 }
             }
-            return res;
+            return false;
         }
     }
 }
