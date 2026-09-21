@@ -11,6 +11,7 @@ namespace ConsoleApp2
             List<Value> values = new List<Value>();
             List<CryptoValue> cryptoValues = new List<CryptoValue>();
             List<Bank> banks = new List<Bank>();
+            List<Base> globallist = new List<Base>();
             Factory factory = new Factory();
 
             Console.WriteLine("1. добавить курс валют\n2. добавить криптовалюту\n3. добавить банк" +
@@ -55,29 +56,56 @@ namespace ConsoleApp2
                     string[] res = File.ReadAllLines(path);
                     foreach (string line in res)
                     {
-                        string[] obj = line.Split(':');
+                        string[] obj = line.Split(": ");
+
                         switch (obj[0])
                         {
                             case "курс валют":
                                 Value v = factory.CreateValue(obj[1]);
                                 values.Add(v);
+                                globallist.Add(v);
                                 break;
                             case "банк":
                                 Bank b = factory.CreateBank(obj[1]);
                                 banks.Add(b);
+                                globallist.Add(b);
                                 break;
                             case "криптовалюта":
                                 CryptoValue c = factory.CreateCryptoValue(obj[1]);
                                 cryptoValues.Add(c);
+                                globallist.Add(c);
                                 break;
                         }
                     }
                     break;
                 case 5:
-
+                    List<string> result = new List<string>();
+                    foreach (var obj in globallist)
+                    {
+                        result.Add($"{obj.BaseName}:");
+                        switch (obj.BaseName)
+                        {
+                            case "курс валют":
+                                result += $"{obj.From}";
+                                break;
+                            case "банк":
+                                Bank b = factory.CreateBank(obj[1]);
+                                banks.Add(b);
+                                globallist.Add(b);
+                                break;
+                            case "криптовалюта":
+                                CryptoValue c = factory.CreateCryptoValue(obj[1]);
+                                cryptoValues.Add(c);
+                                globallist.Add(c);
+                                break;
+                        }
+                    }
+                    File.AppendAllLines("C:\\Users\\student\\Desktop\\pis\\Buffer.txt", result);
                     Console.WriteLine("удачно");
                     break;
-
+                default:
+                    Console.WriteLine("неверный ввод");
+                    break;
             }
         }
         public static bool F(List<Value> currentvalues, Value toadd)
@@ -92,10 +120,6 @@ namespace ConsoleApp2
                 }
             }
             return false;
-        }
-        public static void ParseFile(string[] a)
-        {
-            
         }
     }
 }

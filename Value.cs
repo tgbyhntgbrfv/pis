@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Value
+    internal class Value : Base
     {
-        private string _name;
-        private string _name2;
-        public string From { get { return _name; } set { _name = value; } }
-        public string To { get { return _name2; } set {  _name2 = value; } }
+        public string From { get; set; }
+        public string To { get; set; }
         private double _course;
         public double Course { get { return _course; } set { if (value > 0) { _course = value; } else { _course = 7; } } }
-        private DateTime _date;
-        public DateTime Date { get { return _date; } set { _date = value; } }
+        public DateTime Date { get; set; }
+        public string BaseName = "курс валют";
+        public string ObjName { get { return From; } set; }
+        public string ObjName_2 { get { return To; } set; }
     }
 }
