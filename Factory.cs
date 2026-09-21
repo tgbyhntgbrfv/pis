@@ -29,5 +29,32 @@ namespace ConsoleApp2
                 Date = Convert.ToDateTime(properties[3])
             };
         }
+        public CryptoValue CreateCryptoValue(string line) 
+        {
+            List<string> properties = line.Split("\" ").ToList();
+            properties[0]=properties[0].Substring(1);
+            return new CryptoValue
+            {
+                Name = properties[0],
+                Value = Convert.ToDouble(properties[1])
+            };
+        }
+        public Bank CreateBank(string line)
+        {
+            List<string> properties = line.Split("\" ").ToList();
+            properties[0] = properties[0].Substring(1);
+            
+            properties.AddRange(properties[1].Split(" "));
+            properties.RemoveAt(1);
+            
+
+            return new Bank
+            {
+                Name = properties[0],
+                Capital = Convert.ToInt32(properties[1]),
+                Date = Convert.ToDateTime(properties[2])
+            };
+        }
+        
     }
 }
