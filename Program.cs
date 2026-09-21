@@ -86,17 +86,13 @@ namespace ConsoleApp2
                         switch (obj.BaseName)
                         {
                             case "курс валют":
-                                result += $"{obj.From}";
+                                result.Add($"\"{obj.ObjName}\" \"{obj.ObjName_2}\" {obj.BaseDoubleValue} {obj.BaseDateTime}");
                                 break;
                             case "банк":
-                                Bank b = factory.CreateBank(obj[1]);
-                                banks.Add(b);
-                                globallist.Add(b);
+                                result.Add($"");
                                 break;
                             case "криптовалюта":
-                                CryptoValue c = factory.CreateCryptoValue(obj[1]);
-                                cryptoValues.Add(c);
-                                globallist.Add(c);
+                                
                                 break;
                         }
                     }
@@ -113,7 +109,7 @@ namespace ConsoleApp2
             int index = 0;
             for (int i = 0; i < currentvalues.Count; i++)
             {
-                if (currentvalues[i].From == toadd.From && currentvalues[i].To == toadd.To)
+                if (currentvalues[i].ObjName == toadd.ObjName && currentvalues[i].ObjName_2 == toadd.ObjName_2)
                 {
                     currentvalues[i] = toadd;
                     return true;

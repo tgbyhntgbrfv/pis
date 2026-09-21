@@ -23,10 +23,10 @@ namespace ConsoleApp2
             //foreach (var property in properties) {Console.WriteLine(property); }
             return new Value
             {
-                From = properties[0],
-                To = properties[1],
-                Course = Convert.ToDouble(properties[2]),
-                Date = Convert.ToDateTime(properties[3])
+                ObjName = properties[0],
+                ObjName_2 = properties[1],
+                BaseDoubleValue = Convert.ToDouble(properties[2]),
+                BaseDateTime = Convert.ToDateTime(properties[3])
             };
         }
         public CryptoValue CreateCryptoValue(string line) 
@@ -35,8 +35,8 @@ namespace ConsoleApp2
             properties[0]=properties[0].Substring(1);
             return new CryptoValue
             {
-                Name = properties[0],
-                Value = Convert.ToDouble(properties[1])
+                ObjName = properties[0],
+                BaseDoubleValue = Convert.ToDouble(properties[1])
             };
         }
         public Bank CreateBank(string line)
@@ -50,9 +50,9 @@ namespace ConsoleApp2
 
             return new Bank
             {
-                Name = properties[0],
-                Capital = Convert.ToInt32(properties[1]),
-                Date = Convert.ToDateTime(properties[2])
+                ObjName = properties[0],
+                BaseIntValue = Convert.ToInt32(properties[1]),
+                BaseDateTime = Convert.ToDateTime(properties[2])
             };
         }
         

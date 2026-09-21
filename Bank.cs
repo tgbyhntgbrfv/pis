@@ -8,9 +8,7 @@ namespace ConsoleApp2
 {
     internal class Bank : Base
     {
-        public string Name { get; set; }
-        public int Capital { get; set; }
-        public DateTime Date { get; set; }
+        
         public string BaseName = "банк";
     }
 }
