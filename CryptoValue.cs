@@ -8,7 +8,6 @@ namespace ConsoleApp2
 {
     internal class CryptoValue : Base
     {
-        
         public string BaseName = "криптовалюта";
     }
 }
