@@ -8,7 +8,7 @@ namespace ConsoleApp2
 {
     internal class Bank : Base
     {
-        
-        public string BaseName = "банк";
+
+        public override string BaseName { get; set; } = "банк";
     }
 }

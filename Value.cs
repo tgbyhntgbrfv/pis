@@ -12,7 +12,7 @@ namespace ConsoleApp2
         private double _course;
         public double Course { get { return _course; } set { if (value > 0) { _course = value; } else { _course = 7; } } }
         public DateTime Date { get; set; }
-        public string BaseName = "курс валют";
+        public override string BaseName { get; set; } = "курс валют";
         
     }
 }

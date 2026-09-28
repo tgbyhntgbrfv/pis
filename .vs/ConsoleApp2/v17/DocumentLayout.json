@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\cryptovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:cryptovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\cryptovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:cryptovalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\buffer.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Base.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Base.cs",
               "RelativeToolTip": "Base.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T11:54:17.519Z",
               "EditorCaption": ""
@@ -87,39 +87,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bank.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Bank.cs",
               "RelativeDocumentMoniker": "Bank.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Bank.cs",
               "RelativeToolTip": "Bank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T11:06:04.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CryptoValue.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\CryptoValue.cs",
               "RelativeDocumentMoniker": "CryptoValue.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\CryptoValue.cs",
               "RelativeToolTip": "CryptoValue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-21T10:45:50.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Factory.cs",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Factory.cs",
               "RelativeDocumentMoniker": "Factory.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Factory.cs",
               "RelativeToolTip": "Factory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwEQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T11:02:39.776Z",
               "EditorCaption": ""
@@ -132,7 +132,7 @@
               "RelativeDocumentMoniker": "Value.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Value.cs",
               "RelativeToolTip": "Value.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T11:51:59.145Z",
               "EditorCaption": ""
@@ -145,7 +145,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T11:45:05.289Z",
               "EditorCaption": ""

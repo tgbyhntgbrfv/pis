@@ -11,6 +11,7 @@ namespace ConsoleApp2
         public Value CreateValue(string line)
         {
             
+            
             List<string> properties = line.Split("\" ").ToList();
 
             for (int i = 0; i < 2; i++)
@@ -55,6 +56,53 @@ namespace ConsoleApp2
                 BaseDateTime = Convert.ToDateTime(properties[2])
             };
         }
-        
+        public List<Base> AddObjects(string path)
+        {
+            string[] res = File.ReadAllLines(path);
+            List<Base> result = new List<Base>();
+            foreach (string line in res)
+            {
+                string[] obj = line.Split(": ");
+
+                switch (obj[0])
+                {
+                    case "курс валют":
+                        Value v = CreateValue(obj[1]);
+                        result.Add(v);
+                        break;
+                    case "банк":
+                        Bank b = CreateBank(obj[1]);
+                        result.Add(b);
+                        break;
+                    case "криптовалюта":
+                        CryptoValue c = CreateCryptoValue(obj[1]);
+                        result.Add(c);
+                        break;
+                }
+            }
+            return result;
+        }
+        public void SaveToFile(List<Base> input)
+        {
+            List<string> result = new List<string>();
+            foreach (var obj in input)
+            {
+                result.Add($"{obj.BaseName}:");
+                switch (obj.BaseName)
+                {
+                    case "курс валют":
+                        result.Add($"\"{obj.ObjName}\" \"{obj.ObjName_2}\" {obj.BaseDoubleValue} {obj.BaseDateTime}");
+                        break;
+                    case "банк":
+                        result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue} {obj.BaseDateTime}");
+                        break;
+                    case "криптовалюта":
+                        result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue}");
+                        break;
+                }
+            }
+            File.AppendAllLines(
+                "C:\\Users\\student\\Desktop\\pis\\Buffer.txt",result);
+        }
     }
 }
