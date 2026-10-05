@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Factory
+    public class Factory
     {
         public Value CreateValue(string line)
         {
@@ -82,7 +82,7 @@ namespace ConsoleApp2
             }
             return result;
         }
-        public void SaveToFile(List<Base> input)
+        public void SaveToFile(List<Base> input,string path)
         {
             List<string> result = new List<string>();
             foreach (var obj in input)
@@ -91,18 +91,19 @@ namespace ConsoleApp2
                 switch (obj.BaseName)
                 {
                     case "курс валют":
-                        result.Add($"\"{obj.ObjName}\" \"{obj.ObjName_2}\" {obj.BaseDoubleValue} {obj.BaseDateTime}");
+                        result.Add($"\"{obj.ObjName}\" \"{obj.ObjName_2}\" " +
+                            $"{obj.BaseDoubleValue} {obj.BaseDateTime:yyyy-MM-dd}");
                         break;
                     case "банк":
-                        result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue} {obj.BaseDateTime}");
+                        result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue} " +
+                            $"{obj.BaseDateTime:yyyy-MM-dd}");
                         break;
                     case "криптовалюта":
                         result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue}");
                         break;
                 }
             }
-            File.AppendAllLines(
-                "C:\\Users\\student\\Desktop\\pis\\Buffer.txt",result);
+            File.AppendAllLines(path,result);
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Base
+    public class Base
     {
         public virtual string BaseName { get; set; }
         public string ObjName { get; set; }

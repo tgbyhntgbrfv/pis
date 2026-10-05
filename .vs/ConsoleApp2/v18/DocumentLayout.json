@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\_)\\Desktop\\pis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:value.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\valuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\valuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\savetofiletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\savetofiletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\createvaluestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\createvaluestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\createcryptovaluestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\createcryptovaluestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\createbanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\createbanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\addobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\addobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\consoleapp2.tests\\consoleapp2.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:consoleapp2.tests\\consoleapp2.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\_)\\desktop\\pis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Value.cs",
-              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\Value.cs",
-              "RelativeDocumentMoniker": "Value.cs",
-              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\Value.cs",
-              "RelativeToolTip": "Value.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Title": "ValueTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\ValueTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\ValueTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\ValueTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\ValueTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T13:34:13.32Z",
+              "WhenOpened": "2026-10-05T07:49:43.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaveToFileTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\SaveToFileTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\SaveToFileTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\SaveToFileTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\SaveToFileTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T07:49:42.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateValuesTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateValuesTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\CreateValuesTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateValuesTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\CreateValuesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T07:49:41.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCryptoValuesTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateCryptoValuesTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\CreateCryptoValuesTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateCryptoValuesTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\CreateCryptoValuesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T07:49:40.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateBankTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateBankTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\CreateBankTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\CreateBankTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\CreateBankTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T07:49:38.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddObjectsTests.cs",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T07:49:35.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleApp2.csproj",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp2.csproj",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj",
+              "RelativeToolTip": "ConsoleApp2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-05T06:30:04.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T13:34:13.474Z",
+              "WhenOpened": "2026-10-05T07:23:22.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConsoleApp2.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj",
+              "ToolTip": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj",
+              "RelativeToolTip": "ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-05T07:19:17.678Z",
               "EditorCaption": ""
             }
           ]

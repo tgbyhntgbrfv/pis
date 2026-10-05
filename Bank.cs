@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Bank : Base
+    public class Bank : Base
     {
 
         public override string BaseName { get; set; } = "банк";

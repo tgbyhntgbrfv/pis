@@ -40,13 +40,15 @@ namespace ConsoleApp2
                         banks.Add(factory.CreateBank(sss));
                         break;
                     case 4:
-                        Console.WriteLine("введите путь к файлу");
+                        Console.WriteLine("введите путь к файлу для считывания");
                         string p = Console.ReadLine();
                         globallist.AddRange(factory.AddObjects(p));
                         Console.WriteLine("удачно");
                         break;
                     case 5:
-                        factory.SaveToFile(globallist);
+                        Console.WriteLine("введите путь к файлу для сохранения");
+                        string path = Console.ReadLine();
+                        factory.SaveToFile(globallist,path);
                         Console.WriteLine("удачно");
                         break;
                     default:

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class CryptoValue : Base
+    public class CryptoValue : Base
     {
         public override string BaseName { get; set; } = "криптовалюта";
     }
