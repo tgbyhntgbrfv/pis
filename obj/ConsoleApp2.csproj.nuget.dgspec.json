@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj": {}
+    "C:\\Users\\admin\\Desktop\\pis\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj": {
+    "C:\\Users\\admin\\Desktop\\pis\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\pis\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "C:\\Users\\_)\\Desktop\\pis\\ConsoleApp2.csproj",
-        "packagesPath": "C:\\Users\\_)\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\_)\\Desktop\\pis\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\pis\\ConsoleApp2.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\pis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\_)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

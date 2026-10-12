@@ -15,7 +15,7 @@ namespace ConsoleApp2.Tests
             string path = Path.GetTempFileName();
             File.WriteAllLines(path, new[]
             {
-                "курс валют: \"USD\" \"EUR\" 92.5 2024-05-01",
+                "курс валют: \"USD\" \"EUR\" 92,5 2024-05-01",
                 "банк: \"Сбербанк\" 500000 2024-01-15",
                 "криптовалюта: \"Bitcoin\" 65000.75"
             });
@@ -78,8 +78,9 @@ namespace ConsoleApp2.Tests
         [Fact]
         public void AddObjects_NonExistentFile_ThrowsFileNotFoundException()
         {
-            Assert.Throws<FileNotFoundException>(
+            Assert.Throws<DirectoryNotFoundException>(
                 () => _factory.AddObjects(@"C:\nonexistent\path\file.txt"));
+            
         }
     }
 }

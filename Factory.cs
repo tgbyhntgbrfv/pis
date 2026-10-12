@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Globalization;
 namespace ConsoleApp2
 {
     public class Factory
@@ -26,7 +26,7 @@ namespace ConsoleApp2
             {
                 ObjName = properties[0],
                 ObjName_2 = properties[1],
-                BaseDoubleValue = Convert.ToDouble(properties[2]),
+                BaseDoubleValue = Convert.ToDouble(properties[2], CultureInfo.InvariantCulture),
                 BaseDateTime = Convert.ToDateTime(properties[3])
             };
         }
@@ -37,7 +37,7 @@ namespace ConsoleApp2
             return new CryptoValue
             {
                 ObjName = properties[0],
-                BaseDoubleValue = Convert.ToDouble(properties[1])
+                BaseDoubleValue = Convert.ToDouble(properties[1], CultureInfo.InvariantCulture),
             };
         }
         public Bank CreateBank(string line)
@@ -101,6 +101,8 @@ namespace ConsoleApp2
                     case "криптовалюта":
                         result.Add($"\"{obj.ObjName}\" {obj.BaseDoubleValue}");
                         break;
+                    default:
+                        throw new Exception($"Неизвестный BaseName: '{obj.BaseName}' (type: {obj.GetType().Name})");
                 }
             }
             File.AppendAllLines(path,result);

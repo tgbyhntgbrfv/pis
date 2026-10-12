@@ -11,6 +11,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="ConsoleApp2.Tests\**" />
+	  <EmbeddedResource Remove="ConsoleApp2.Tests\**" />
+	  <None Remove="ConsoleApp2.Tests\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0">
 	    <PrivateAssets>all</PrivateAssets>
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

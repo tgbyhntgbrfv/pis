@@ -1,8 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<OutputType>Library</OutputType>
-	
+	  <OutputType>Exe</OutputType>
+	  <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+	  <UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+	  <TestingPlatformCaptureOutput>false</TestingPlatformCaptureOutput>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -10,8 +12,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="18.11.0" />
     <PackageReference Include="xunit.v3" Version="4.0.1" />
 	
   </ItemGroup>
