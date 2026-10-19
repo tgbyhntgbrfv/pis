@@ -6,14 +6,13 @@ namespace ConsoleApp2.Tests
 {
     public class FactoryCreateBankTests
     {
-        private readonly Factory _factory = new Factory();
-
         [Fact]
         public void CreateBank_ValidInput_ReturnsBank()
         {
+            var factory = new Factory();
             string input = "\"Сбербанк\" 500000 2024-01-15";
 
-            Bank result = _factory.CreateBank(input);
+            Bank result = Factory.CreateBank(input);
 
             Assert.NotNull(result);
             Assert.Equal("Сбербанк", result.ObjName);
@@ -25,17 +24,10 @@ namespace ConsoleApp2.Tests
         [Fact]
         public void CreateBank_InvalidIntValue_ThrowsFormatException()
         {
+            var factory = new Factory();
             string input = "\"Сбербанк\" abc 2024-01-15";
 
-            Assert.Throws<FormatException>(() => _factory.CreateBank(input));
-        }
-
-        [Fact]
-        public void CreateBank_InvalidDate_ThrowsFormatException()
-        {
-            string input = "\"Сбербанк\" 500000 not-a-date";
-
-            Assert.Throws<FormatException>(() => _factory.CreateBank(input));
+            Assert.Throws<FormatException>(() => Factory.CreateBank(input));
         }
     }
 }

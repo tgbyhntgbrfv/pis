@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\pis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|c:\\users\\student\\desktop\\pis\\consoleapp2.tests\\addobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|solutionrelative:consoleapp2.tests\\addobjectstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\menuadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:menuadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\menureadfromfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:menureadfromfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|c:\\users\\student\\desktop\\pis\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144C99D3-AE0E-43CA-BE15-98A1D7791C0C}|ConsoleApp2.csproj|solutionrelative:logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|c:\\users\\student\\desktop\\pis\\consoleapp2.tests\\loggertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|solutionrelative:consoleapp2.tests\\loggertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|c:\\users\\student\\desktop\\pis\\consoleapp2.tests\\functests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72986B80-FE30-42F3-A14C-482907F61093}|ConsoleApp2.Tests\\ConsoleApp2.Tests.csproj|solutionrelative:consoleapp2.tests\\functests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddObjectsTests.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\AddObjectsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T12:17:12.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAP8UAAAAAAAAAAAwwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-10-19T12:06:21.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuReadFromFile.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\MenuReadFromFile.cs",
+              "RelativeDocumentMoniker": "MenuReadFromFile.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\MenuReadFromFile.cs",
+              "RelativeToolTip": "MenuReadFromFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:18:17.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuAdd.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\MenuAdd.cs",
+              "RelativeDocumentMoniker": "MenuAdd.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\MenuAdd.cs",
+              "RelativeToolTip": "MenuAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:14:36.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:09:27.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\MenuItem.cs",
+              "RelativeDocumentMoniker": "MenuItem.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\MenuItem.cs",
+              "RelativeToolTip": "MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T11:04:58.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Factory.cs",
+              "RelativeDocumentMoniker": "Factory.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Factory.cs",
+              "RelativeToolTip": "Factory.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwFIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:43:25.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:43:48.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\Logger.cs",
+              "RelativeDocumentMoniker": "Logger.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\Logger.cs",
+              "RelativeToolTip": "Logger.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:52:06.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoggerTests.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\LoggerTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\LoggerTests.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\LoggerTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\LoggerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:53:29.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FuncTests.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\FuncTests.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2.Tests\\FuncTests.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\pis\\ConsoleApp2.Tests\\FuncTests.cs",
+              "RelativeToolTip": "ConsoleApp2.Tests\\FuncTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T10:49:44.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

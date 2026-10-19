@@ -4,16 +4,15 @@ using ConsoleApp2;
 
 namespace ConsoleApp2.Tests
 {
-    public class CreateCryptoValueTests
+    public class FactoryCreateCryptoValueTests
     {
-        private readonly Factory _factory = new Factory();
-
         [Fact]
         public void CreateCryptoValue_ValidInput_ReturnsCryptoValue()
         {
+            var factory = new Factory();
             string input = "\"Bitcoin\" 65000.75";
 
-            CryptoValue result = _factory.CreateCryptoValue(input);
+            CryptoValue result = Factory.CreateCryptoValue(input);
 
             Assert.NotNull(result);
             Assert.Equal("Bitcoin", result.ObjName);
@@ -24,9 +23,10 @@ namespace ConsoleApp2.Tests
         [Fact]
         public void CreateCryptoValue_IntegerValue_ParsesAsDouble()
         {
+            var factory = new Factory();
             string input = "\"Ethereum\" 3000";
 
-            CryptoValue result = _factory.CreateCryptoValue(input);
+            CryptoValue result = Factory.CreateCryptoValue(input);
 
             Assert.Equal("Ethereum", result.ObjName);
             Assert.Equal(3000.0, result.BaseDoubleValue);
@@ -35,9 +35,10 @@ namespace ConsoleApp2.Tests
         [Fact]
         public void CreateCryptoValue_InvalidNumber_ThrowsFormatException()
         {
+            var factory = new Factory();
             string input = "\"Bitcoin\" not-a-number";
 
-            Assert.Throws<FormatException>(() => _factory.CreateCryptoValue(input));
+            Assert.Throws<FormatException>(() => Factory.CreateCryptoValue(input));
         }
     }
 }

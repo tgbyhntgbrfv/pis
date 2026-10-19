@@ -36,7 +36,7 @@ namespace ConsoleApp2.Tests
 
             try
             {
-                _factory.SaveToFile(objects, path);
+                Factory.SaveToFile(objects, path);
                 string content = File.ReadAllText(path);
 
                 Assert.Contains("курс валют:", content);
@@ -62,7 +62,7 @@ namespace ConsoleApp2.Tests
 
             try
             {
-                _factory.SaveToFile(new List<Base>
+                Factory.SaveToFile(new List<Base>
                 {
                     new CryptoValue { ObjName = "BTC", BaseDoubleValue = 1 }
                 }, path);

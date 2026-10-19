@@ -8,10 +8,8 @@ namespace ConsoleApp2
 {
     public class Factory
     {
-        public Value CreateValue(string line)
+        public static Value CreateValue(string line)
         {
-            
-            
             List<string> properties = line.Split("\" ").ToList();
 
             for (int i = 0; i < 2; i++)
@@ -30,7 +28,7 @@ namespace ConsoleApp2
                 BaseDateTime = Convert.ToDateTime(properties[3])
             };
         }
-        public CryptoValue CreateCryptoValue(string line) 
+        public static CryptoValue CreateCryptoValue(string line) 
         {
             List<string> properties = line.Split("\" ").ToList();
             properties[0]=properties[0].Substring(1);
@@ -40,15 +38,13 @@ namespace ConsoleApp2
                 BaseDoubleValue = Convert.ToDouble(properties[1], CultureInfo.InvariantCulture),
             };
         }
-        public Bank CreateBank(string line)
+        public static Bank CreateBank(string line)
         {
             List<string> properties = line.Split("\" ").ToList();
             properties[0] = properties[0].Substring(1);
             
             properties.AddRange(properties[1].Split(" "));
             properties.RemoveAt(1);
-            
-
             return new Bank
             {
                 ObjName = properties[0],
@@ -56,33 +52,35 @@ namespace ConsoleApp2
                 BaseDateTime = Convert.ToDateTime(properties[2])
             };
         }
-        public List<Base> AddObjects(string path)
+        public static void AddObjects(string path)
         {
             string[] res = File.ReadAllLines(path);
-            List<Base> result = new List<Base>();
             foreach (string line in res)
             {
-                string[] obj = line.Split(": ");
-
-                switch (obj[0])
-                {
-                    case "курс валют":
-                        Value v = CreateValue(obj[1]);
-                        result.Add(v);
-                        break;
-                    case "банк":
-                        Bank b = CreateBank(obj[1]);
-                        result.Add(b);
-                        break;
-                    case "криптовалюта":
-                        CryptoValue c = CreateCryptoValue(obj[1]);
-                        result.Add(c);
-                        break;
-                }
+                AddObject(line);
             }
-            return result;
         }
-        public void SaveToFile(List<Base> input,string path)
+        public static void AddObject(string line)
+        {
+            string[] obj = line.Split(": ");
+
+            switch (obj[0])
+            {
+                case "курс валют":
+                    Value v = CreateValue(obj[1]);
+                    Program.globallist.Add(v);
+                    break;
+                case "банк":
+                    Bank b = CreateBank(obj[1]);
+                    Program.globallist.Add(b);
+                    break;
+                case "криптовалюта":
+                    CryptoValue c = CreateCryptoValue(obj[1]);
+                    Program.globallist.Add(c);
+                    break;
+            }
+        }
+        public static void SaveToFile(List<Base> input,string path)
         {
             List<string> result = new List<string>();
             foreach (var obj in input)

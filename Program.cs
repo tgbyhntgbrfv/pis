@@ -2,21 +2,32 @@
 
 namespace ConsoleApp2
 {
-    class Program
+    public class Program
     {
+        public static List<Base> globallist = new List<Base>();
         static void Main(string[] args)
         {
-            List<Value> values = new List<Value>();
-            List<CryptoValue> cryptoValues = new List<CryptoValue>();
-            List<Bank> banks = new List<Bank>();
-            List<Base> globallist = new List<Base>();
-            Factory factory = new Factory();
+            Menu menu = new Menu();
+            menu.Items = new List<MenuItem>()
+            {
+                new MenuAdd(),
+            new MenuReadFromFile(),
+            new MenuSaveToFile(),
+            };
+            menu.Run();
+
+            
+
+
+
+
+
+            /*Factory factory = new Factory();
 
             while (true)
             {
-                Console.WriteLine("\n0.выход\n1. добавить курс валют\n" +
-                    "2. добавить криптовалюту\n3. добавить банк" +
-                    "\n4. считать с файла\n5. сохранить в файл");
+                Console.WriteLine("\n0.выход\n1. добавить значение" +
+                    "\n2. считать с файла\n3. сохранить в файл");
                 Console.Write("> ");
 
                 string? input = Console.ReadLine();
@@ -33,33 +44,20 @@ namespace ConsoleApp2
                     switch (a)
                     {
                         case 1:
-                            Console.WriteLine("введите: \"Имя1\" \"Имя2\" курс дата");
+                            Console.WriteLine("введите данные в формате имя объекта: свойства");
                             string s = Console.ReadLine() ?? "";
-                            values.Add(factory.CreateValue(s));
                             Console.WriteLine("удачно");
                             break;
                         case 2:
-                            Console.WriteLine("введите: \"Имя\" значение");
-                            string ss = Console.ReadLine() ?? "";
-                            cryptoValues.Add(factory.CreateCryptoValue(ss));
+                            Console.WriteLine("введите путь к файлу для считывания");
+                            string p = Console.ReadLine() ?? "";
+                            Factory.AddObjects(p);
                             Console.WriteLine("удачно");
                             break;
                         case 3:
-                            Console.WriteLine("введите: \"Имя\" состояние дата");
-                            string sss = Console.ReadLine() ?? "";
-                            banks.Add(factory.CreateBank(sss));
-                            Console.WriteLine("удачно");
-                            break;
-                        case 4:
-                            Console.WriteLine("введите путь к файлу для считывания");
-                            string p = Console.ReadLine() ?? "";
-                            globallist.AddRange(factory.AddObjects(p));
-                            Console.WriteLine("удачно");
-                            break;
-                        case 5:
                             Console.WriteLine("введите путь к файлу для сохранения");
                             string path = Console.ReadLine() ?? "";
-                            factory.SaveToFile(globallist, path);
+                            Factory.SaveToFile(globallist, path);
                             Console.WriteLine("удачно");
                             break;
                         default:
@@ -95,7 +93,7 @@ namespace ConsoleApp2
                 {
                     Console.WriteLine($"Непредвиденная ошибка: {ex.Message}");
                 }
-            }
+            }*/
         }
     }
 }
