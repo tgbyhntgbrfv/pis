@@ -36,7 +36,7 @@ namespace ConsoleApp2
                 }
             }
 
-            // Если хоть одного нет — возвращаем 0
+            // если хоть одного нет то 0
             if (firstNegative == null || lastPositive == null)
                 return 0;
 
